@@ -1,0 +1,37 @@
+body {
+}
+
+section {
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+}
+
+
+#block {
+
+  width: 100px;
+  height:100px;
+  background-color: #ff9955;
+  border: 10px solid #001100;
+  padding: 10px;
+  float: left;
+  margin: 0 10px 0 0;
+
+}
+
+#inline_block {
+height: 100px;
+width: 100px;
+background-color: #ff0000;
+
+
+}
+
+  #block:nth-last-of-type(3n+2) {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(255,255,0,0.8))
+
+}
